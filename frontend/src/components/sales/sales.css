@@ -1,0 +1,32 @@
+.printable-receipt {
+    font-family: Arial, sans-serif;
+    margin: 1rem;
+  }
+  
+  .table1 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .table1, .td1 {
+    border: 1px solid #ddd;
+  }
+  
+  .td1 {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Add any additional styling as needed for your receipt */
+  
+  .printable-receipt-container {
+    display: none;
+  }
+  
+  /* Style for the container when in print mode */
+  @media print {
+    .printable-receipt-container {
+      display: block;
+    }
+  }
